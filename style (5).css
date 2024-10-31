@@ -1,0 +1,594 @@
+/*Start Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Permanent+Marker&display=swap');
+/*End Google Fonts*/
+h3{
+  text-align: center;
+  padding: 25px;
+  font-family: fantasy;
+  color: snow;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+body{
+  background: black;
+}
+header{
+  padding: 15px;
+  box-shadow: 0 0 15px 0 gold;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth
+} 
+.container{
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .nav ul li{
+  display: inline-block;
+  padding: 10px;
+} 
+.container .nav ul li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: snow;
+  transition: 0.6s
+} 
+.container .nav ul li a:hover{
+  transition: 0.6s;
+  font-family: fantasy;
+  border-bottom: solid 3px gold;
+  color: gold;
+}
+.container .logo{
+  width: 70px;
+}
+.container .icons i{
+  margin: 15px;
+  font-size: 25px;
+  color: snow;
+  transition: ease 0.6s;;
+}
+.container .icons i:hover {
+  color: gold;
+  transition: 0.6s;
+  font-size: 30px;
+  transition: ease 0.6s;
+}
+.contant{
+  background-image: url(img/contant5.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  z-index:-1;
+  height: 25vh;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contant .text-contant span{
+  color: snow;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 15px;
+}
+.contant .text-contant h1{
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  color: gold;
+  margin: 15px;
+}
+.contant .text-contant p{
+  color: snow;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 15px;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.btn1{
+  margin: 15px;
+  background: gold;
+  border: none;
+  border-radius: 100px;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn1:hover{
+  background: transparent;
+  color: gold;
+  transition: 0.6s;
+  border: solid 3px gold;
+}
+.btn2{
+  margin: 15px;
+  background: transparent;
+  color: gold;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 7px;
+  transition: 0.6s;
+  border-radius: 100px
+}
+.btn2:hover{
+  background: gold;
+  color: black;
+  transition: 0.6s;
+  border-radius: 100px
+}
+.cont{
+  width: 400px;
+}
+.contant .seller{
+  flex-direction: column;
+  text-align: center;
+}
+.contant .seller .text-seller h4{
+  margin: 10px;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: gold;
+}
+.contant .seller .text-seller span{
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: snow;
+  font-size: 18px;
+}
+.mens-womens{
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mws{
+  width: 400px;
+  margin: 15px;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+.mws:hover{
+  transform: scale(1.2);
+  transition: 0.6s
+}
+.about{
+  height: 30vh;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  height: 30vh;
+}
+.text-about{
+  padding: 25px;
+}
+.text-about h4{
+  margin: 15px;
+  color: snow;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.text-about h2{
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  margin: 15px;
+  color: gold;
+}
+.text-about p{
+  width: 300px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  color: snow;
+}
+.btn-abt{
+  margin: 15px;
+  background: gold;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  font-size: 25px;
+  border: solid 1px black;
+  border-radius: 15px;
+  transition: 0.6s
+}
+.btn-abt:hover{
+  background: transparent;
+  color: gold;
+  transition: 0.6s;
+  border: solid 3px gold;
+}
+.btn-abt2{
+  margin: 15px;
+  background: transparent;
+  color: gold;
+  border-bottom: solid 3px gold;
+  transition: 0.6s;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn-abt2:hover{
+  transition: 0.6s;
+  background: gold;
+  color: black;
+  border-radius: 15px
+}
+.abt{
+  width: 250px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transition: 0.6s;
+  filter: grayscale(100%)
+}
+.abt:hover{
+  transition: 0.6s;
+  transform: scale(1.3);
+  border-radius: 15px;
+  filter: none
+}
+.products{
+  background: #121212;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2% 6%;
+}
+.img-product{
+  transition: 0.6s;
+  margin: 15px;
+}
+.img-product:hover{
+  transition: 0.6s
+}
+.text-pro{
+  padding: 15px;
+  color: gold;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+.textp-pro{
+  padding: 15px;
+  width: 200px;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+  margin-bottom: 15px;
+}
+#btn-pro{
+  margin: 15px;
+  width: 500px;
+  padding: 4px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  background: gold;
+  border: solid 2px gold;
+  border-radius: 12px
+}
+.str{
+  width: 80px;
+  padding: 15px;
+}
+.pro{
+  width: 200px;
+  margin: 15px;
+  border-bottom: solid 5px gold;
+  z-index: 1;
+  transition-duration: 0.6s;
+}
+.pro:hover{
+  transition: 0.6s;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.womens{
+  background-image: url(img/women.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.text-women span{
+  margin: 15px;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+  font-size: 25px;
+}
+.text-women h2{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: gold;
+}
+.text-women p{
+  width: 550px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+  margin-bottom: 25px;
+}
+.btn-wo{
+  margin: 15px;
+  padding: 4px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  background: gold;
+  border: solid 2px gold;
+  border-radius: 12px
+} 
+.store1{
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-store span{
+  margin: 15px;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 22px;
+  color: snow;
+}
+.text-store h2{
+  margin: 15px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+  color: gold;
+}
+.text-store p{
+  width: 450px;
+  margin: 15px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+}
+.stor{
+  width: 450px;
+  margin: 15px;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+.stor:hover{
+  transition: 0.6s;
+  transform: scale(1.1)
+}
+.store2{
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-store2 span{
+  margin: 15px;
+  font-size: 22px;
+  font-family: serif;
+  font-weight: bold;
+  color: snow;
+}
+.text-store2 h2{
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+  color: gold;
+  margin: 15px;
+}
+.text-store2 p{
+  margin: 15px;
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+  margin-bottom: 25px;
+}
+.btn-stor{
+  margin: 15px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  border: solid 3px gold;
+  border-radius: 5px;
+  background: gold;
+  color: black;
+  transition: 0.6s;
+}
+.btn-stor:hover{
+  background: transparent;
+  color: gold;
+  border: solid 3px gold;
+  transition: 0.6s
+}
+.stor2{
+  width: 350px;
+  border-radius: 15px;
+  transition: 0.6s;
+  margin: 15px;
+}
+.stor2:hover{
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+video{
+  width: 100%;
+}
+.services{
+  height: 15vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+}
+.textp-srv{
+  padding: 15px;
+  margin: auto;
+  color: snow;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 250px;
+}
+.srv{
+  width: 100px;
+}
+.blogs{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: darkgoldenrod;
+}
+.text-blog span{
+  margin: 10px;
+  font-family: fantasy;
+  font-size: 22px;
+  font-weight: bold;
+  color: snow;
+}
+.text-blog h2{
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: snow;
+}
+.text-blog p{
+  padding: 10px;
+  font-size: 20px;
+  width: 450px;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: snow;
+}
+.text-blogs{
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: snow;
+  font-size: 20px;
+}
+.textli-blog li {
+  padding: 15px;
+  display: inline-block
+}
+.textli-blog li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: snow;
+}
+.btn-blog{
+  padding: 4px;
+  outline: none;
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: solid 3px gold;
+  border-radius: 10px;
+}
+
+
+/*Start Media Mobile*/
+
+@media (max-width: 768px) {
+  .contant{
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+  }
+  .text-contant p{
+    width: 300px;
+    margin: auto;
+  }
+  .btn1{
+    font-size: 20px
+  }
+  .btn2{
+    font-size: 20px
+  }
+  .cont{
+    width: 350px;
+  }
+}
+
+
+@media (max-width: 768px){
+  .mens-womens{
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+  }
+  .mws{
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px){
+  .about{
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    z-index: 1;
+  }
+  .imgs{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .abt{
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px){
+  
+}
+/*End Media Mobile*/
